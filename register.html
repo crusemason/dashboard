@@ -1,0 +1,70 @@
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="css/registerstyle.css">
+	</head>
+	<body>
+		<div class="registerwrapper">
+			<div class="wrapper">
+			<div class="registerimg">
+				<img src="imgs/aussie2.jpg">
+			</div>
+			<div class="registerright">
+				<div class="registerinfo">
+					<div class="headerwrap">
+						<span>Create An Account!</span>
+					</div>
+					<div>
+						<input id="firstname" type="text" name="firstname" class="registerinput registerfirstinput" value="First Name">
+						<input id="lastname" type="text" name="lastname" class="registerinput" value="Last Name">
+					</div>
+
+					<!-- small screen init hidden -->
+					<div class="lastnamesmallscreen">
+						<input id="inputsmallscreenlastname" class="smallscreeninputstyle" type="text" name="lastname" value="Last Name">
+					</div>
+
+					<div>
+						<input id="email" type="text" name="email" class="registeremail" value="Email Address">
+					</div>
+					<div>
+						<input id="password" type="text" name="password" class="registerinput registerfirstinput" value="Password">
+						<input id="passwordcheck" type="text" name="passwordcheck" class="registerinput" value="Password Check">
+					</div>
+
+					<!-- smallscreen init hidden -->
+					<div class="passwordsmallscreen">
+						<input id="inputsmallscreenpassword" class="smallscreeninputstyle" type="text" name="passwordcheck" value="Password Check">
+					</div>
+
+
+					<div>
+						<div id="register" class="registerbtn"><span>Register Account</span></div>
+					</div>
+
+					<hr id="line" />
+
+					<div id="registersocial">
+						<div class="registergoogle"><span>Register with Google</span></div>
+						<div id="registerfacebook" class="registerfacebook"><span>Register with Facebook</span></div>
+					</div>
+
+					<div class="registerfacebooksmallscreen">
+						<div id="registerfacebookbtnsmallscreen" class="registerfacebook"><span>Register with Facebook</span></div>
+					</div>
+
+					<hr id="line1" />
+
+					<div id="forgotwrap">
+						<a href="#" class="forgot"><span>Forgot Password?</span></a>
+					</div>
+					<div id="loginwrap">
+						<a href="login.html" class="forgot"><span>Already have an account? Login!</span></a>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+		<script src="js/errorCheckRegister.js"></script>
+	</body>
+</html>
